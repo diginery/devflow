@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+build
+
+# Test output
+coverage
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Generated files
+*.generated.*
+
+# OS files
+.DS_Store
