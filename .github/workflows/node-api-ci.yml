@@ -47,7 +47,7 @@ jobs:
         with:
           image-ref: node-api:${{ github.sha }}
           format: sarif
-          output: trivy-report.sarif
+          output: trivy-results.sarif
           exit-code: 1
           vuln-type: os,library
           severity: CRITICAL,HIGH
@@ -56,4 +56,4 @@ jobs:
         uses: github/codeql-action/upload-sarif@v4
         if: always()
         with:
-          sarif_file: trivy-report.sarif
+          sarif_file: trivy-results.sarif
