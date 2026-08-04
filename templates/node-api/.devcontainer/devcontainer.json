@@ -1,5 +1,5 @@
 {
-  "name": "DevFlow Node Service",
+  "name": "DevEx Node Service",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
   "forwardPorts": [3000],
   "postCreateCommand": "npm ci",

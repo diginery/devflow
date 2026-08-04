@@ -6,7 +6,7 @@ describe('GET /', () => {
   it('should return a 200 status code and the correct response', async () => {
     const response = await request(app).get('/');
     expect(response.status).toBe(200);
-    expect(response.text).toBe('DevFlow service running');
+    expect(response.text).toBe('DevEx service running');
   });
 });
 

@@ -4,7 +4,7 @@ import type { Request, Response } from 'express';
 const app = express();
 
 app.get('/', (_req: Request, res: Response) => {
-  res.send('DevFlow service running');
+  res.send('DevEx service running');
 });
 
 app.get('/health', (_req: Request, res: Response) => {
